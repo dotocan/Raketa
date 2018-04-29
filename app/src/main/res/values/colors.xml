@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2f343d</color>
+    <color name="colorPrimaryDark">#2f343d</color>
+    <color name="colorPrimaryLight">#bfcdcf</color>
+    <color name="colorAccent">#2f343d</color>
+    
+    <color name="colorStatusOnline">#2de0a5</color>
+    <color name="colorStatusBusy">#ffd21f</color>
+    <color name="colorStatusAway">#f5455c</color>
+    <color name="colorStatusInvisible">#cbced1</color>
+    <color name="colorStatusText">#9ea2a8</color>
+</resources>

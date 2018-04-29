@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Raketa</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="type_something">Type something...</string>
+    <string name="logout">Logout</string>
+    <string name="john_doe">John Doe</string>
+    <string name="online">Online</string>
+    <string name="away">Away</string>
+    <string name="busy">Busy</string>
+    <string name="invisible">Invisible</string>
+    <string name="next">Next</string>
+    <string name="default_url">open.rocket.chat</string>
+    <string name="login">Login</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="connecting">Connecting</string>
+    <string name="logging_in">Logging in</string>
+    <string name="server_url">Server URL</string>
+    <string name="connect">Connect</string>
+    <string name="user_profile_image">User profile image</string>
+    <string name="loading">Loading...</string>
+</resources>

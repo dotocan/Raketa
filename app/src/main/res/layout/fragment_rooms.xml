@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp">
+
+   <!-- <io.github.dotocan.raketa.presentation.custom_views.AccountInfoView
+        android:id="@+id/account_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="32dp"
+        android:textColor="#fff"
+        android:gravity="end|center_vertical"/> -->
+
+    <io.github.dotocan.raketa.presentation.customview.OnlineStatusView
+        android:id="@+id/online_status"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_rooms"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/online_status"
+        app:layout_constraintBottom_toTopOf="@id/tv_logout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_logout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="32dp"
+        android:drawableLeft="@drawable/ic_exit_24dp"
+        android:drawablePadding="16dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:gravity="end|center_vertical"/>
+
+</android.support.constraint.ConstraintLayout>
